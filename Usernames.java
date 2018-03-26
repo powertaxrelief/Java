@@ -16,7 +16,7 @@ public class Usernames {
         System.out.print("You are now logged into the system!");
     } else if (user.equals("emily") && password.equals("cat")) {
         System.out.print("You are now logged into the system!"); 
-    } else { System.out.print("You rusername or passwrd was invalid!");
+    } else { System.out.print("Your username or passwrd was invalid!");
     }
     }
 }
