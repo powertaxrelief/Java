@@ -1,0 +1,10 @@
+README File for Factorial Calculator 1.0
+
+This program was one of the first early programs to give me trouble.  I will try to summarize the issues with the calculator below.
+
+At first, I struggled to see how the program would actually do the calculations inside the loop.  Unlike previous programs, the use
+of multiplication complicated matters.  I tried to first use the formula for factored_num (the number we want):
+        factored_num = (loop_num * (loop_num + 1));
+My original thinking was I wanted to force the factorial and this would allow this by increasing the value of the factored_num variable in each iteration of the loop.  However, I didn't realize that the entire loop intrinsically will do this for me (and shows how new to coding I am!).  Also, I believe I was accidentally computing x! = 1*x + 2*x + 3*x instead of x! = 1*2*3
+
+Instead, the solution was rather simple - we just multiply the existing value of factored_num by the number of times in the loop.  
