@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class FirstCharacter {
+
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+
+        System.println("Type your name:  ");
+
+        String name = scan.next();
+
+        println("Number of characters:  " + length);
+
+    }
+
+    public static int calculateCharacters(String length)
+}
+        length = length(name);
+        return length;
